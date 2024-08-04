@@ -1,0 +1,34 @@
+/* src/styles/Settings.css */
+.settings-form {
+    background-color: #27293d;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.settings-form label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.settings-form select,
+.settings-form input[type="checkbox"] {
+    margin-left: 1rem;
+}
+
+.settings-form button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1e1e2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings-form button:hover {
+    background-color: #3b3b4f;
+}

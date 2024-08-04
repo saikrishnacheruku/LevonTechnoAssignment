@@ -1,0 +1,14 @@
+/* src/styles/MainContent.css */
+.main-content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+}
+
+.widget {
+    background-color: #27293d;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
